@@ -1,3 +1,4 @@
 # Vue-JS-Component-WebSite
  MultiPage website built with Vue JS components
- Index2.html and index.html are different builds. Currently, only index2.html is active.
+ Index2.html and index2.js are the files that showcase Vue components in action.
+ Index.html and index.js are a combination of Vue component and and bootstrap components in tandem. WIP
