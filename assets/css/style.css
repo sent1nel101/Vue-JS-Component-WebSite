@@ -1,0 +1,87 @@
+*{
+    box-sizing:border-box;    
+}
+
+body, html{
+ padding:1em;   
+}
+body{    
+    background-image: url('https://www.pngmagic.com/product_images/website-background-image-size-psd-vector-photo.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:white;
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    text-shadow: 2px 2px #333;
+}
+#app{    
+ color:white;
+ text-align: center;
+}
+#navNav{
+    display:flex;
+    justify-content: space-evenly;
+}
+.jumbotron{
+    margin: 5rem 0;
+    letter-spacing: .1rem;
+}
+
+.container-fluid{
+    padding: 0;
+    margin:0;
+}
+img{
+    border-radius: 5px;
+}
+.c2aDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    width:100%;
+    height: 15rem;
+    position:relative;
+}
+#signUpBtn{
+    margin: 1em;
+    color:#333;
+ }
+button{
+    margin:1em;
+}
+p a:hover{
+position:relative;
+top: 1px;
+}
+p a{
+    color:rgb(2, 2, 2);
+}
+.card-body{
+    background-image: linear-gradient(180deg, rgb(120, 91, 224), rgb(27, 24, 46));
+    color:rgb(255, 255, 255);
+    text-align:center;
+    box-shadow: 3px 3px #333;
+}
+.card-header{
+   color:rgba(255, 250, 250, 0.055);
+}
+.card-title{
+    color:rgba(255, 254, 254, 0.404);
+}
+p{
+    font-size:16px;
+}
+.services{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.blockquote p, .blockquote footer{
+    font-size: 12px;
+}
